@@ -1,22 +1,49 @@
-.homepage-content {
+/* General formatting of page */
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     min-height: auto;
 }
 
+/* Formatting headers */
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+/* Unvisited link */
+a:link {
+    color: red;
+}
+
+/* Visited link */
+a:visited {
+    color: black;
+}
+
+/* Mouse over link */
+a:hover {
+    color: rgba(0, 0, 0, 0.336);
+}
+
+/* Selected link */
+a:active {
+    color: cyan;
 }
 
 .recipe-list {
-    text-align: left;
+    text-align: center;
 }
 
+/* Footer styling */
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
-    background: rgb(220, 220, 231);
+    background: rgb(238, 238, 241);
 }
