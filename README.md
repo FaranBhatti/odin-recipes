@@ -11,5 +11,11 @@ An incredibly basic recipe website. The website will not look very pretty, just 
 - Image referencing absolute vs. relative
 - Ordered and unordered lists
 - Folder structure & linking webpages on a website
+- Putting data into divisions and labelling them appropriately
+
+### Foundations: CSS
+- External sheet styling to pages
+- Utilizing various selectors and combinators
+- Descendent combinators
 
 ###### Live Preview: https://faranbhatti.github.io/odin-recipes/
