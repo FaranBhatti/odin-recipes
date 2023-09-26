@@ -1,0 +1,36 @@
+/* General formatting of page */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    min-height: auto;
+}
+
+h2 {
+    text-align: left;
+}
+
+.description {
+    text-align: center;
+}
+
+.page-content .ingredients,
+.page-content .directions {
+    text-align: left;
+}
+
+img {
+    padding: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Footer styling */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background: rgb(238, 238, 241);
+}
